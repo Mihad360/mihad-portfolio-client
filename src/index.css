@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font{
+    font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400,500,600,700,800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.image1{
+  background-image: url('https://i.ibb.co/9GpS7Ww/Remove-bg-ai-1714400635876-1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
