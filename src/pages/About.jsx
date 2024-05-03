@@ -1,8 +1,11 @@
+import Aboutbanner from "../aboutroutes/Aboutbanner";
 
 const About = () => {
     return (
         <div>
-            About
+            <div>
+                <Aboutbanner></Aboutbanner>
+            </div>
         </div>
     );
 };
