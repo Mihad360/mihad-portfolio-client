@@ -25,7 +25,7 @@ const Aboutbanner = () => {
 
   return (
     <div>
-      <div className="pt-32 flex flex-row-reverse justify-center gap-6 pb-12">
+      <div className="pt-32 flex flex-row-reverse justify-center gap-6 pb-6">
         <div className="border-2 rounded-lg border-gray-300 p-5">
           <img
             className=" rounded-lg"
