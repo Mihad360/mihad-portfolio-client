@@ -3,9 +3,9 @@ import { VscDebugBreakpointLog } from "react-icons/vsc";
 
 const Resume = () => {
     return (
-        <div className="pt-20">
+        <div className="pt-12">
             <h1 className="text-4xl text-emerald-600 font-semibold">MY RESUME</h1>
-            <div className="pt-24 flex items-center justify-between ">
+            <div className="pt-12 flex items-center justify-between ">
                 <div>
                     <img className="" src="https://i.ibb.co/bKxbrq0/Mesa-de-trabajo-1-removebg-preview.png" alt="" />
                 </div>

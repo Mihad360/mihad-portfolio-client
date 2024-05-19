@@ -58,7 +58,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <div className="pt-20 pb-20">
+    <div className="pt-12 pb-20">
       <div>
         <h1 className="text-4xl text-emerald-600 font-semibold">SKILLS</h1>
         <p className="pt-3 text-lg text-black">The skills are the tools, and the mark of my work what can I do with my knowledge. <br /> The right set of tools (skills) will help you to be more creative and strong.</p>

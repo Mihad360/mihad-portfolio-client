@@ -1,5 +1,7 @@
-import React from 'react'
+/* eslint-disable react/no-unescaped-entities */
 import { FaFileExport } from 'react-icons/fa';
+import { FaClover } from 'react-icons/fa6';
+import { GiSkills } from 'react-icons/gi';
 import { IoLogoWebComponent } from 'react-icons/io5';
 import { MdCenterFocusStrong } from 'react-icons/md';
 import { RiFocusFill } from 'react-icons/ri';
@@ -73,7 +75,7 @@ export default function Exp_skill() {
         <h1 className="text-emerald-600 font-semibold text-3xl flex items-center gap-5">
           <p>Skills</p>
           <p>
-            <MdCenterFocusStrong />
+            <GiSkills />
           </p>
         </h1>
         <p className="text-black pl-5 pt-5">
@@ -88,7 +90,7 @@ export default function Exp_skill() {
           <h1 className="text-emerald-600 font-semibold text-3xl flex items-center gap-5 pt-8">
             <p>Love to do</p>
             <p>
-              <MdCenterFocusStrong />
+              <FaClover />
             </p>
           </h1>
           <p className="text-black pl-5 pt-5">

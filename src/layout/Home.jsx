@@ -1,4 +1,5 @@
 import Banner from "../homeroutes/Banner";
+import Contact from "../homeroutes/Contact";
 import Resume from "../homeroutes/Resume";
 import Skills from "../homeroutes/Skills";
 
@@ -13,6 +14,9 @@ const Home = () => {
             </div>
             <div>
                 <Skills></Skills>
+            </div>
+            <div>
+                <Contact></Contact>
             </div>
         </div>
     );
