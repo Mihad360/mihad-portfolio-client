@@ -3,19 +3,21 @@ import emailjs from "@emailjs/browser";
 import { IoSend } from "react-icons/io5";
 
 export default function Contact() {
-
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_2edvdzs", "template_owyg79e", form.current, {
-        publicKey: "jSFNkrUxU0F-VKblX",
-      })
+      .sendForm(
+        "service_2edvdzs",
+        "template_owyg79e",
+        form.current,
+        "jSFNkrUxU0F-VKblX"
+      )
       .then(
         (result) => {
-          console.log(result);
+          console.log("SUCCESS!", result.text);
         },
         (error) => {
           console.log("FAILED...", error.text);
@@ -45,10 +47,11 @@ export default function Contact() {
                     Name
                   </label>
                   <input
-                    className="border-2 border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent rounded-lg shadow-md p-2 w-80 transition duration-300 ease-in-out transform hover:scale-105 "
+                    className="border-2 border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent rounded-lg shadow-md p-2 w-80 transition duration-300 ease-in-out transform hover:scale-105"
                     type="text"
                     name="user_name"
                     placeholder="Write here.."
+                    required
                   />
                 </div>
                 <div className="flex flex-col">
@@ -60,6 +63,7 @@ export default function Contact() {
                     type="email"
                     name="user_email"
                     placeholder="Write here.."
+                    required
                   />
                 </div>
                 <div className="flex flex-col">
@@ -70,16 +74,15 @@ export default function Contact() {
                     className="border-2 border-black focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent rounded p-2 w-80 h-32"
                     name="message"
                     placeholder="Write here.."
+                    required
                   />
                 </div>
-                  <button className="bg-gradient-to-r from-emerald-400 to-emerald-600 text-black font-bold py-2 px-4 rounded hover:from-emerald-500 hover:to-emerald-700 duration-300 flex items-center gap-3 text-lg hover:scale-110 ease-in-out transition-all">
-                    <IoSend />
-                    <input
-                      className="hover:cursor-pointer"
-                      type="submit"
-                      value="Send"
-                    />
-                  </button>
+                <button
+                  type="submit"
+                  className="bg-gradient-to-r from-emerald-400 to-emerald-600 text-black font-bold py-2 px-4 rounded hover:from-emerald-500 hover:to-emerald-700 duration-300 flex items-center gap-3 text-lg hover:scale-110 ease-in-out transition-all">
+                  <IoSend />
+                  <span>Send</span>
+                </button>
               </form>
             </div>
           </div>
