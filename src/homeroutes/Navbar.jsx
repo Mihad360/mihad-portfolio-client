@@ -44,7 +44,7 @@ const Navbar = () => {
 // [#57cdbe]
     return (
         <div className="border-b-2 border-emerald-600 w-[1280px] fixed z-50 backdrop-blur-md backdrop:filter bg-zinc-50 dark:bg-neutral-900 dark:bg-transparent dark:bg-opacity-80 bg-opacity-60 bg-transparent rounded-b-3xl px-5">
-            <div className="flex justify-between items-center gap-20 p-5">
+            <div className="flex justify-between items-center gap-20 p-4">
                 <div className="flex items-center gap-5">
                     {/* <img className="w-10" src="https://i.ibb.co/nbH5Gqk/maxcdn.png" alt="" /> */}
                     <p className="text-5xl text-emerald-600"><BiLogoMediumOld />

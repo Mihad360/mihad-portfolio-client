@@ -35,7 +35,8 @@ const Aboutbanner = () => {
           <h1 className="text-4xl font-bold text-emerald-600 pb-3 text-center pt-3">
             Montasir Mihad
           </h1>
-          <p className="flex items-center bg-gray-500 text-white p-2 w-56 rounded-lg mx-auto text-xl ">
+          <p
+            className="flex items-center bg-gradient-to-b from-emerald-500 to-warm-gray-300 text-black p-2 w-56 rounded-lg mx-auto text-xl ">
             <Marquee className="flex gap-5 items-center" speed={50}>
               <div className="pr-5">Frontend Developer</div>
               <div>MERN Stack Developer</div>

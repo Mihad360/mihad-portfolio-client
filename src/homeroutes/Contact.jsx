@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { IoSend } from "react-icons/io5";
+import Swal from "sweetalert2";
 
 export default function Contact() {
   const form = useRef();
@@ -17,9 +18,18 @@ export default function Contact() {
       )
       .then(
         (result) => {
+          if (result.text === "OK") {
+            form.current.reset();
+            Swal.fire({
+              title: "Sent",
+              text: "The message sent successfully",
+              icon: "success",
+            });
+          }
           console.log("SUCCESS!", result.text);
         },
         (error) => {
+          
           console.log("FAILED...", error.text);
         }
       );
