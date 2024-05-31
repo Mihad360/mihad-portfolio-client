@@ -41,7 +41,7 @@ export default function Contact() {
       <p className="text-lg text-black pt-3 tracking-widest pb-12">
         Find me with a mail in my gmail account.. Have a good response!!
       </p>
-      <div className="bg-emerald-200 rounded-lg p-10">
+      <div className="bg-emerald-300 rounded-lg p-10">
         <div>
           <div className="bg-white rounded-lg flex items-center justify-evenly">
             <div>

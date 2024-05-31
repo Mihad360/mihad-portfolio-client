@@ -56,7 +56,7 @@ const Banner = () => {
             <a
               className="text-3xl hover:scale-150 duration-300 ease-in-out transition-all"
               target="_blank"
-              href="https://www.facebook.com/miyad.ahammed.3">
+              href="https://www.facebook.com/MontasirMihad360">
               <FaSquareFacebook />
             </a>
             <a
