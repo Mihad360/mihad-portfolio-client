@@ -20,17 +20,17 @@ const Projects = () => {
 
   return (
     <div>
-      <div className="bg-gradient-to-r from-emerald-400 to-warm-gray-300 pt-24 flex items-center justify-center gap-20 px-16 rounded-b-lg h-[700px]">
+      <div className="bg-gradient-to-r from-emerald-400 to-warm-gray-300 pt-24 flex items-center justify-center gap-20 px-16 rounded-b-lg h-[700px] dark:bg-neutral-900 dark:bg-none">
         <div className="">
-          <h1 className="text-2xl text-black font-medium pb-3">
+          <h1 className="text-2xl text-black font-medium pb-3 dark:text-white">
             Hey!! I'm{" "}
-            <span className="text-3xl font-bold text-black tracking-wide">
+            <span className="text-3xl font-bold text-black tracking-wide dark:text-white">
               Montasir Mihad
             </span>{" "}
             <br />
             Here you can see some of my Projects
           </h1>
-          <p className="text-black tracking-widest">
+          <p className="text-black tracking-widest dark:text-gray-300">
             Explore my projects to see how I turn ideas into real-world
             solutions. <br /> Each project showcases my skills and dedication. I
             hope they inspire you!

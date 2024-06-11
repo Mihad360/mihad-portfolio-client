@@ -61,27 +61,39 @@ const Skills = () => {
     <div className="pt-12 pb-20">
       <div>
         <h1 className="text-4xl text-emerald-600 font-semibold">SKILLS</h1>
-        <p className="pt-3 text-lg text-black">The skills are the tools, and the mark of my work what can I do with my knowledge. <br /> The right set of tools (skills) will help you to be more creative and strong.</p>
-        <div className='flex justify-center pt-16'>
-          <div className='grid grid-cols-3 gap-6'>
+        <p className="pt-3 text-lg text-black dark:text-white">
+          The skills are the tools, and the mark of my work what can I do with
+          my knowledge. <br /> The right set of tools (skills) will help you to
+          be more creative and strong.
+        </p>
+        <div className="flex justify-center pt-16">
+          <div className="grid grid-cols-3 gap-6">
             {skills.map((skill, index) => (
-              <div key={index} ref={(ref) => (progressRefs.current[index] = ref)}>
-                <div className='flex items-center gap-3 bg-gradient-to-br from-white to-emerald-100 rounded-lg shadow-md p-4 lg:h-36'>
-                  <img className='w-20' src={skill.image} alt={skill.name} />
+              <div
+                key={index}
+                ref={(ref) => (progressRefs.current[index] = ref)}>
+                <div
+                  className="flex items-center gap-3 bg-gradient-to-br from-white to-emerald-100 rounded-lg shadow-md p-4 lg:h-36 hover:scale-110 duration-300 ease-in-out transition-all 
+">
+                  <img className="w-20" src={skill.image} alt={skill.name} />
                   <div>
-                    <h1 className='text-xl font-semibold text-emerald-600'>{skill.name}</h1>
-                    <p className='text-base font-medium'>{descriptions[index]}</p>
+                    <h1 className="text-xl font-semibold text-emerald-600">
+                      {skill.name}
+                    </h1>
+                    <p className="text-base font-medium">
+                      {descriptions[index]}
+                    </p>
                   </div>
-                  <div className='w-40'>
+                  <div className="w-40">
                     <CircularProgressbar
                       value={isVisible[index] ? skill.percentage : 0}
                       text={`${isVisible[index] ? skill.percentage : 0}%`}
                       styles={buildStyles({
                         pathTransitionDuration: isVisible[index] ? 1.5 : 0,
-                        textColor: isVisible[index] ? '#059669' : '#000',
-                        pathColor: isVisible[index] ? '#059669' : '#ccc',
-                        trailColor: '#f3f3f3',
-                        textSize: '24px',
+                        textColor: isVisible[index] ? "#059669" : "#000",
+                        pathColor: isVisible[index] ? "#059669" : "#ccc",
+                        trailColor: "#f3f3f3",
+                        textSize: "24px",
                       })}
                     />
                   </div>

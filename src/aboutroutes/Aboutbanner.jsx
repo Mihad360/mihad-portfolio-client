@@ -35,8 +35,7 @@ const Aboutbanner = () => {
           <h1 className="text-4xl font-bold text-emerald-600 pb-3 text-center pt-3">
             Montasir Mihad
           </h1>
-          <p
-            className="flex items-center bg-gradient-to-b from-emerald-500 to-warm-gray-300 text-black p-2 w-56 rounded-lg mx-auto text-xl ">
+          <p className="flex items-center bg-gradient-to-b from-emerald-500 to-warm-gray-300 text-black p-2 w-56 rounded-lg mx-auto text-xl dark:text-white">
             <Marquee className="flex gap-5 items-center" speed={50}>
               <div className="pr-5">Frontend Developer</div>
               <div>MERN Stack Developer</div>
@@ -48,8 +47,10 @@ const Aboutbanner = () => {
               <MdOutlineEmail />
             </p>
             <p>
-              <p className="text-lg text-black font-semibold">Email</p>
-              <p className="font-medium tracking-widest">
+              <p className="text-lg text-black font-semibold dark:text-white">
+                Email
+              </p>
+              <p className="font-medium tracking-widest dark:text-gray-300">
                 ahmedmihad962@gmail.com
               </p>
             </p>
@@ -59,8 +60,12 @@ const Aboutbanner = () => {
               <MdPhonelinkRing />
             </p>
             <p>
-              <p className="text-lg text-black font-semibold">Phone</p>
-              <p className="font-medium tracking-widest">+8801979053892</p>
+              <p className="text-lg text-black font-semibold dark:text-white">
+                Phone
+              </p>
+              <p className="font-medium tracking-widest dark:text-gray-300">
+                +8801979053892
+              </p>
             </p>
           </p>
           <p className="flex items-center gap-3 pt-6">
@@ -68,8 +73,10 @@ const Aboutbanner = () => {
               <GrLocation />
             </p>
             <p>
-              <p className="text-lg text-black font-semibold">Location</p>
-              <p className="font-medium tracking-widest">
+              <p className="text-lg text-black font-semibold dark:text-white">
+                Location
+              </p>
+              <p className="font-medium tracking-widest dark:text-gray-300">
                 Narayangonj,Dhaka-Bangladesh
               </p>
             </p>
@@ -79,8 +86,12 @@ const Aboutbanner = () => {
               <LiaBirthdayCakeSolid />
             </p>
             <p>
-              <p className="text-lg text-black font-semibold">Birthday</p>
-              <p className="font-medium tracking-widest">7th November 2004</p>
+              <p className="text-lg text-black font-semibold dark:text-white">
+                Birthday
+              </p>
+              <p className="font-medium tracking-widest dark:text-gray-300">
+                7th November 2004
+              </p>
             </p>
           </p>
           <p className="flex items-center justify-center gap-6 pt-5 text-emerald-600 font-bold">
@@ -110,7 +121,7 @@ const Aboutbanner = () => {
               {texts[index % texts.length]}
             </TextTransition>
           </h1>
-          <p className="text-lg text-black tracking-wide pt-5 text-justify">
+          <p className="text-lg text-black tracking-wide pt-5 text-justify dark:text-white">
             I'm a student developer living in the bustling city of Narayanganj,
             Dhaka. Fueled by coffee-tea and late nights, I'm obsessed with
             building beautiful and intuitive user interfaces that come alive

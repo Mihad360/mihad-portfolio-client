@@ -12,7 +12,7 @@ const Resume = () => {
                 <div className="w-[40%]">
                     {/* <h1 className="text-2xl text-black text-center -tracking-wide">Here is my</h1> */}
                     <p className="text-3xl text-emerald-600 font-semibold pt-2 text-center">RESUME</p>
-                    <p className="text- text-lg text-black tracking-wide pt-3 font-medium">
+                    <p className="text- text-lg text-black tracking-wide pt-3 font-medium dark:text-white">
                         <p className="flex gap-3 items-center">
                             <h1><VscDebugBreakpointLog /></h1>
                             <h1>Resume is one of the popular way to showcase the personal skills and development.</h1>

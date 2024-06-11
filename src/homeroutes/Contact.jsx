@@ -36,14 +36,14 @@ export default function Contact() {
   };
 
   return (
-    <div>
+    <div className="">
       <h1 className="text-4xl text-emerald-600 font-semibold">Contact me</h1>
-      <p className="text-lg text-black pt-3 tracking-widest pb-12">
+      <p className="text-lg text-black pt-3 tracking-widest pb-12 dark:text-white">
         Find me with a mail in my gmail account.. Have a good response!!
       </p>
-      <div className="bg-emerald-300 rounded-lg p-10">
+      <div className="bg-emerald-300 rounded-lg p-10 dark:bg-neutral-900">
         <div>
-          <div className="bg-white rounded-lg flex items-center justify-evenly">
+          <div className="bg-white rounded-lg flex items-center justify-evenly dark:bg-neutral-900">
             <div>
               <img
                 src="https://i.ibb.co/YBfQmLV/4289985-removebg-preview.png"
@@ -53,7 +53,7 @@ export default function Contact() {
             <div>
               <form className="space-y-3" ref={form} onSubmit={sendEmail}>
                 <div className="flex flex-col">
-                  <label className="text-black text-xl font-bold pb-2">
+                  <label className="text-black text-xl font-bold pb-2 dark:text-white">
                     Name
                   </label>
                   <input
@@ -65,7 +65,7 @@ export default function Contact() {
                   />
                 </div>
                 <div className="flex flex-col">
-                  <label className="text-black text-xl font-bold pb-2">
+                  <label className="text-black text-xl font-bold pb-2 dark:text-white">
                     Email
                   </label>
                   <input
@@ -77,7 +77,7 @@ export default function Contact() {
                   />
                 </div>
                 <div className="flex flex-col">
-                  <label className="text-black text-xl font-bold pb-2">
+                  <label className="text-black text-xl font-bold pb-2 dark:text-white">
                     Message
                   </label>
                   <textarea
@@ -89,7 +89,7 @@ export default function Contact() {
                 </div>
                 <button
                   type="submit"
-                  className="bg-gradient-to-r from-emerald-400 to-emerald-600 text-black font-bold py-2 px-4 rounded hover:from-emerald-500 hover:to-emerald-700 duration-300 flex items-center gap-3 text-lg hover:scale-110 ease-in-out transition-all">
+                  className="bg-gradient-to-r from-emerald-400 to-emerald-600 text-black font-bold py-2 px-4 rounded hover:from-emerald-500 hover:to-emerald-700 duration-300 flex items-center gap-3 text-lg hover:scale-110 ease-in-out transition-all placeholder:text-white">
                   <IoSend />
                   <span>Send</span>
                 </button>

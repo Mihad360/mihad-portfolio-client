@@ -11,7 +11,7 @@ const GradientOverlayCard = ({ item }) => {
             <h2 className="text-3xl font-bold">{title}</h2>
           </div>
         </div>
-        <div className="w-full bg-white p-4 flex flex-col justify-between">
+        <div className="w-full bg-white p-4 flex flex-col justify-between dark:bg-gray-300">
           <div>
             <h1 className="text-xl text-black font-semibold pb-3">Features:</h1>
               <ul className="list-disc pl-4 text-black text-lg tracking-wider">

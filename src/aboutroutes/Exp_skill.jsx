@@ -18,18 +18,20 @@ export default function Exp_skill() {
         </h1>
         <div className="pl-5">
           <h1 className="flex items-center gap-5 pt-4">
-            <p className="text-2xl font-bold text-black">
+            <p className="text-2xl font-bold text-black dark:text-gray-300">
               <IoLogoWebComponent />
             </p>
-            <p className="text-xl font-semibold text-black">Web Developer</p>
+            <p className="text-xl font-semibold text-black dark:text-white">
+              Web Developer
+            </p>
           </h1>
-          <h1 className="pl-12 pt-2 text-lg text-black">
+          <h1 className="pl-12 pt-2 text-lg text-black dark:text-white">
             2023 -{" "}
             <span className="text-emerald-600 font-semibold text-xl">
               Present
             </span>
           </h1>
-          <p className="pl-12">
+          <p className="pl-12 dark:text-gray-300">
             As a junior React developer with
             <span className="text-black font-medium"> 8</span> months of course
             at Programming Hero, I've honed my skills in crafting responsive UIs
@@ -52,22 +54,22 @@ export default function Exp_skill() {
         </h1>
         <p className=" space-y-2 pl-5 pt-5">
           <p className="flex items-center gap-3 text-lg text-black">
-            <p>
+            <p className="dark:text-gray-300">
               <RiFocusFill />
             </p>
-            <p>Learning more and new things</p>
+            <p className="dark:text-gray-300">Learning more and new things</p>
           </p>
           <p className="flex items-center gap-3 text-lg text-black">
-            <p>
+            <p className="dark:text-gray-300">
               <RiFocusFill />
             </p>
-            <p>Personal Branding</p>
+            <p className="dark:text-gray-300">Personal Branding</p>
           </p>
           <p className="flex items-center gap-3 text-lg text-black">
-            <p>
+            <p className="dark:text-gray-300">
               <RiFocusFill />
             </p>
-            <p>Building new projects/designs</p>
+            <p className="dark:text-gray-300">Building new projects/designs</p>
           </p>
         </p>
       </div>
@@ -78,7 +80,7 @@ export default function Exp_skill() {
             <GiSkills />
           </p>
         </h1>
-        <p className="text-black pl-5 pt-5">
+        <p className="text-black pl-5 pt-5 dark:text-gray-300">
           I excel at building user-centric web interfaces with the MERN stack
           (MongoDB, Express.js, React.js, Node.js). Expert in HTML5, CSS3, and
           JavaScript (ES6+), I design beautiful, interactive experiences that
@@ -93,7 +95,7 @@ export default function Exp_skill() {
               <FaClover />
             </p>
           </h1>
-          <p className="text-black pl-5 pt-5">
+          <p className="text-black pl-5 pt-5 dark:text-gray-300">
             I love turning ideas into awesome websites using MERN (think
             super-powered JavaScript!). I'm an expert at HTML5, CSS3, and modern
             JavaScript, so I can design beautiful and user-friendly experiences.
