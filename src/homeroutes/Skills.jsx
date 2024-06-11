@@ -60,14 +60,14 @@ const Skills = () => {
   return (
     <div className="pt-12 pb-20">
       <div>
-        <h1 className="text-4xl text-emerald-600 font-semibold">SKILLS</h1>
-        <p className="pt-3 text-lg text-black dark:text-white">
+        <h1 className="text-4xl text-emerald-600 font-semibold text-center md:text-left">SKILLS</h1>
+        <p className="pt-3 text-lg text-black dark:text-white text-center md:text-left px-5 md:px-0">
           The skills are the tools, and the mark of my work what can I do with
           my knowledge. <br /> The right set of tools (skills) will help you to
           be more creative and strong.
         </p>
         <div className="flex justify-center pt-16">
-          <div className="grid grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-5">
             {skills.map((skill, index) => (
               <div
                 key={index}
