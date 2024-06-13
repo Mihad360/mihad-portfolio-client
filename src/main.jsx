@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { RouterProvider } from "react-router-dom";
 import router from "./routers/router";
+import { HelmetProvider } from "react-helmet-async";
 
 const savedMode = localStorage.getItem("darkmode");
 if (savedMode && JSON.parse(savedMode)) {
@@ -11,10 +12,12 @@ if (savedMode && JSON.parse(savedMode)) {
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <div className="bg-gray-100 dark:bg-neutral-900 transition duration-200">
-      <div className="max-w-7xl mx-auto">
-        <RouterProvider router={router}></RouterProvider>
+    <HelmetProvider>
+      <div className="bg-gray-100 dark:bg-neutral-900 transition duration-200">
+        <div className="max-w-7xl mx-auto">
+          <RouterProvider router={router}></RouterProvider>
+        </div>
       </div>
-    </div>
+    </HelmetProvider>
   </React.StrictMode>
 );

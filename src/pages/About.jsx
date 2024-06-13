@@ -1,9 +1,13 @@
+import { Helmet } from "react-helmet-async";
 import Aboutbanner from "../aboutroutes/Aboutbanner";
 import Exp_skill from "../aboutroutes/Exp_skill";
 
 const About = () => {
     return (
         <div>
+            <Helmet>
+                <title>Portfolio || About</title>
+            </Helmet>
             <div>
                 <Aboutbanner></Aboutbanner>
             </div>

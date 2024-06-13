@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Banner from "../homeroutes/Banner";
 import Contact from "../homeroutes/Contact";
 import Resume from "../homeroutes/Resume";
@@ -6,6 +7,9 @@ import Skills from "../homeroutes/Skills";
 const Home = () => {
     return (
         <div>
+            <Helmet>
+                <title>Portfolio || Home</title>
+            </Helmet>
             <div>
                 <Banner></Banner>
             </div>
