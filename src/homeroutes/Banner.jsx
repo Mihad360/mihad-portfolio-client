@@ -4,8 +4,11 @@ import { MdEmail } from "react-icons/md";
 import { TypeAnimation } from "react-type-animation";
 
 const Banner = () => {
+
+  // bg-emerald-200 bg-gradient-to-r from-emerald-600 to-transparent
+
   return (
-    <div className="flex flex-col md:flex-row-reverse items-center justify-center md:gap-20 lg:gap-40 pt-10 md:pt-20 px-5 md:px-10 bg-emerald-200 bg-gradient-to-r from-emerald-600 to-transparent dark:bg-neutral-900 dark:bg-none lg:rounded-b-lg h-auto md:h-[700px]">
+    <div className="flex flex-col md:flex-row-reverse items-center justify-center md:gap-20 lg:gap-40 pt-10 md:pt-20 px-5 md:px-10  dark:bg-neutral-900 dark:bg-none lg:rounded-b-lg h-auto md:h-[700px]">
       <div className="w-full md:w-3/6 mb-10 md:mb-0">
         <img
           className="mx-auto md:mx-0"
@@ -14,10 +17,10 @@ const Banner = () => {
         />
       </div>
       <div className="w-full md:w-[60%] text-center md:text-left">
-        <h1 className="text-2xl font-medium text-black dark:text-white">
+        <h1 className="text-2xl font-semibold text-black dark:text-white">
           Hey! I'm
         </h1>
-        <p className="text-3xl md:text-5xl font-bold text-black pt-3 tracking-wide dark:text-white">
+        <p className="text-3xl md:text-5xl font-bold text-emerald-600 pt-3 tracking-wide dark:text-white">
           <TypeAnimation
             sequence={["Montasir", 1000, "Montasir Mihad", 1000]}
             speed={300}
@@ -41,7 +44,7 @@ const Banner = () => {
           experiences and scalable solutions. Committed to continuous learning
           and innovation in web development.
         </p>
-        <div className="flex justify-center md:justify-start items-center gap-4 pt-5 text-black dark:text-white pb-10 md:pb-0">
+        <div className="flex justify-center md:justify-start items-center gap-4 pt-5 text-emerald-600 dark:text-white pb-10 md:pb-0">
           <a
             className="text-4xl hover:scale-150 duration-300 ease-in-out transition-all"
             target="_blank"
