@@ -6,7 +6,7 @@ import Skills from "../homeroutes/Skills";
 
 const Home = () => {
     return (
-        <div>
+        <div className="max-w-7xl mx-auto">
             <Helmet>
                 <title>Portfolio || Home</title>
             </Helmet>

@@ -39,7 +39,7 @@ const Resume = () => {
           </div>
           <div className="flex flex-col md:flex-row items-center gap-5 justify-center md:justify-start pt-5">
             <a
-              href="https://drive.google.com/file/d/1WfwWnwQrnUdPQc2j76H47wpq8pr01dDl/view?usp=sharing"
+              href="https://drive.google.com/file/d/1oVnQKFYHSPKa2V7KlGWXClJ8gnSGeyTU/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 btn hover:bg-emerald-400 text-lg text-white font-semibold bg-emerald-600 px-5 py-2 hover:scale-110 duration-300 ease-in-out transition-all hover:text-black">
@@ -47,7 +47,7 @@ const Resume = () => {
               <span>Resume</span>
             </a>
             <a
-              href="/Montasir Mihad's Resume (2) (1).pdf"
+              href="/Montasir-Mihad-Resume.pdf"
               download="MihadResume.PDF"
               className="flex items-center gap-2 btn hover:bg-emerald-400 text-lg text-white font-semibold bg-emerald-600 px-5 py-2 hover:scale-110 duration-300 ease-in-out transition-all hover:text-black">
               <FaFileDownload />

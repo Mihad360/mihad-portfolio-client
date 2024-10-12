@@ -19,7 +19,8 @@ const Projects = () => {
         <title>Portfolio || Projects</title>
       </Helmet>
       <div className="bg-gradient-to-r from-gray-300 via-emerald-400 to-gray-300 min-h-screen pb-6 lg:pb-12 dark:bg-neutral-900 dark:bg-none">
-        <div className="py-10 md:py-24 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between gap-12">
+        <div className="max-w-7xl mx-auto">
+        <div className="py-10 md:py-24 px-6 flex flex-col md:flex-row items-center justify-between gap-12">
           <div className="max-w-md">
             <h1 className="text-3xl md:text-4xl text-black font-medium pb-4 dark:text-white">
               Hey!! I'm{" "}
@@ -42,7 +43,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="pb-12 px-6 md:px-16">
+        <div className="pb-12 px-6 ">
           <h1 className="text-4xl md:text-5xl text-emerald-600 font-semibold mb-8">
             My Projects
           </h1>
@@ -51,6 +52,7 @@ const Projects = () => {
               <GradientOverlayCard key={project.id} item={project} />
             ))}
           </div>
+        </div>
         </div>
       </div>
     </div>

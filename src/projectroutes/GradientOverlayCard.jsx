@@ -5,7 +5,7 @@ const GradientOverlayCard = ({ item }) => {
     <div className="pt-10 relative">
       {" "}
       {/* Add relative positioning here */}
-      <div className="rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105">
+      <div className="rounded-lg border border-black overflow-hidden transform transition-transform duration-300 hover:scale-105">
         <div className="w-full relative">
           <img className="w-full h-80 object-cover" src={image} alt={title} />
           <div className="absolute inset-0 bg-black opacity-50"></div>

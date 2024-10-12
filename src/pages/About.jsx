@@ -8,10 +8,10 @@ const About = () => {
             <Helmet>
                 <title>Portfolio || About</title>
             </Helmet>
-            <div>
+            <div className="max-w-7xl mx-auto">
                 <Aboutbanner></Aboutbanner>
             </div>
-            <div>
+            <div className="max-w-7xl mx-auto">
                 <Exp_skill></Exp_skill>
             </div>
         </div>

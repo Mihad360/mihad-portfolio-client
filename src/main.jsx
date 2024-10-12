@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <HelmetProvider>
       <div className="bg-gray-100 dark:bg-neutral-900 transition duration-200">
-        <div className="max-w-7xl mx-auto">
+        <div className="">
           <RouterProvider router={router}></RouterProvider>
         </div>
       </div>
